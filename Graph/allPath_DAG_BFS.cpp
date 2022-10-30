@@ -1,3 +1,11 @@
+/*
+Finding all path of DAG with BFS
+
+   * standard BFS, however visited vector not needed because it is acyclic
+   * if src is equal to dest push to ans vector
+   *adj graph vector only needed for pushing in nodes
+   * start with source node in queue
+*/
 vector<vector<int>> ans;
     void BFS(vector<vector<int>>& graph, int src)
     {
