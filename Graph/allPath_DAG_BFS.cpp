@@ -1,7 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <queue>
-
 vector<vector<int>> ans;
     void BFS(vector<vector<int>>& graph, int src)
     {
